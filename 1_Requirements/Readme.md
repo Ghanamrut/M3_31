@@ -5,7 +5,7 @@
   2. [High Level Reuqirements](#high-level-requirements)
   3. [Low Level Reuqirements](#low-level-requirements)
   4. [ SWOT Analysis](#swot-analysis)
-  5. [4Ws and 1H](#4ws-and-1h)
+  5. [5Ws and 1H](#5ws-and-1h)
 ## Introduction
 Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles.
 
@@ -70,7 +70,7 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 
 
 
-# 4Ws and 1H
+# 5Ws and 1H
 ![download](https://user-images.githubusercontent.com/98874290/157722220-f94605d1-9cd1-405a-a3ca-bbac83014911.jpg)
 * **Who** - People Having Car.
 * **What** - Remote keyless Entry.
