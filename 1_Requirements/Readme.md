@@ -26,7 +26,7 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 |HLR_05|Car Approach Light shall get activated on pressing blue switch four times|
 
 # Low Level Requirements
-|ID|Description|
+|ID|ID|Description|
 |------|------|------|
 |HLR_01|LLR_01|Print message "Lock" when Blue switch is on|
         
