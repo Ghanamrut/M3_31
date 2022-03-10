@@ -1,8 +1,8 @@
-# Remote Keyless Entry (RKE)
+3# Remote Keyless Entry (RKE)
 
-## Tabel of Content
+## Tabele of Content
   1. [Introduction](#introduction)
-  2. 
+  2. [High Level Reuqirements](#High Level Requirements)
 ## Introduction : -
 Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles.
 
@@ -19,4 +19,8 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 # 
 |ID|Description|
 |------|------|
-|HLR_01||
+|HLR_01|RKE key fob shall send signal to the car ECU|
+|HLR_02|Car shall get locked on pressing blue switch once|
+|HLR_03|Car shall get unlocked on pressing blue switch twice|
+|HLR_04|Car alarm shall get activated/deactivated on pressing blue switch thrice|
+|HLR_05|Car Approach Light shall get activated on pressing blue switch four times|
