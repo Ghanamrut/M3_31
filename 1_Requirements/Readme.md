@@ -29,7 +29,7 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 # Low Level Requirements
 |ID|ID|Description|
 |------|------|------|
-|HLR_01|LLR_01|Key shall be detectable range of the car|
+|HLR_01|LLR_01|Key shall be in detectable range of the car|
 ||LLR_02|Key Battery must be charged|
 |HLR_02|LLR_01|System shall print message "Lock"|       
 ||LLR_02|All LED lights shall get turned on at the same time|
