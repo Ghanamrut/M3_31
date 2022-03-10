@@ -3,6 +3,7 @@
 ## Tabele of Content
   1. [Introduction](#introduction)
   2. [High Level Reuqirements](#high-level-requirements)
+  3. [Low Level Reuqirements](#low-level-requirements)
 ## Introduction : -
 Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles.
 
@@ -29,12 +30,12 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 |ID|ID|Description|
 |------|------|------|
 |HLR_01|LLR_01|Key shall be detectable range of the car|
-       ||LLR_02|Key Battery must be charged|
+||LLR_02|Key Battery must be charged|
 |HLR_02|LLR_01|System shall print message "Lock"|       
-       ||LLR_02|All LED lights shall get turned on at the same time|
+||LLR_02|All LED lights shall get turned on at the same time|
 |HLR_03|LLR_01|System shall print message "Unlock"|              
-      ||LLR_02|All LED lights shall get turned off at the same time|
+||LLR_02|All LED lights shall get turned off at the same time|
 |HLR_04|LLR_01|System shall print message "Alarm Activated/Deactivated"|              
-      ||LLR_02|All led shall get turned on in clockwise manner|
+||LLR_02|All led shall get turned on in clockwise manner|
 |HLR_04|LLR_01|System shall print message "Approach Light"|              
-      ||LLR_02|All led shall get turned on in anti-clockwise manner|
+||LLR_02|All led shall get turned on in anti-clockwise manner|
