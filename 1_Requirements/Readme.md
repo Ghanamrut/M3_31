@@ -39,3 +39,35 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 ||LLR_02|All led shall get turned on in clockwise manner|
 |HLR_04|LLR_01|System shall print message "Approach Light"|              
 ||LLR_02|All led shall get turned on in anti-clockwise manner|
+
+
+
+
+
+
+
+# SWOT Analysis
+![download](https://user-images.githubusercontent.com/98874290/157716675-bbf17aea-59a4-4ebb-8f13-288a8266389d.png)
+* Strength:-
+1) Remote key is very useful in  situations where car lock is not opening Physically.
+2) Broad amount of sensor data available on vehicle or driver status.
+3) Convinient & Time saving.
+* Weakness:-
+1) Limited Range.
+2) Dependable on Battery.
+3) Still missing data communication and data exchange standards and unsolved tasks regarding driver state sensing.
+4) Sensing information is not available or sensing tasks have to be passed to e.g. environment perception or connectivity.
+5) Use of Single switch for multiple operations might be confusing.
+* opportunities:-
+1)Broad amount of sensor data can be remotely accessed (e.g. tire pressure, engine diagnostics, fatigue monitoring).
+2)Existing sensor types and set-ups could be used for advanced connected and automated features.
+* Threats:-
+1) Anyone who has access to key can unlock the car.
+2) Controlling car through mobile phones can vanish this Technology.
+
+
+
+
+
+
+
