@@ -27,6 +27,6 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 
 # Low Level Requirements
 |ID|Description|
-|------|------|
+|------|------|------|
 |HLR_01|LLR_01|Print message "Lock" when Blue switch is on|
         
