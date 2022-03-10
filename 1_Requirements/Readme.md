@@ -16,7 +16,7 @@ RKE operates by broadcasting radio waves on a particular frequency unidirectiona
 
 RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams. 
 
-# 
+# High Level Requirements
 |ID|Description|
 |------|------|
 |HLR_01|RKE key fob shall send signal to the car ECU|
@@ -24,3 +24,9 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 |HLR_03|Car shall get unlocked on pressing blue switch twice|
 |HLR_04|Car alarm shall get activated/deactivated on pressing blue switch thrice|
 |HLR_05|Car Approach Light shall get activated on pressing blue switch four times|
+
+# Low Level Requirements
+|ID|Description|
+|------|------|
+|HLR_01|LLR_01|Print message "Lock" when Blue switch is on|
+        
