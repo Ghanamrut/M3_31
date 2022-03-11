@@ -99,9 +99,6 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 ![M3Project drawio](https://user-images.githubusercontent.com/98812321/157839105-41a51243-30ce-4915-83c4-538bf4896126.png)
 
 
-## Low Level UML Use Case Diagram
-![M3Project drawio](https://user-images.githubusercontent.com/98812321/157839105-41a51243-30ce-4915-83c4-538bf4896126.png)
-
 # TestPlanAndOutput
 ## HIGH LEVEL TEST PLAN
 |TestID|Description|Input|Output|Status|
