@@ -1,8 +1,7 @@
 # Design
 
 ## High Level Structural Diagram
-![M3HL-SD drawio (1)](https://user-images.githubusercontent.com/98812321/157848265-b23f0855-09b8-4a93-b0a3-0fc3fe69b14d.png)
-
+![M3HL-SD drawio (2)](https://user-images.githubusercontent.com/98812321/157850296-ff7d0ba1-010d-49da-bb80-07c182e5e43c.png)
 ## Low Level Structural Diagram
 ![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/98812321/157847273-1cba3ed4-d910-4c36-a804-92bf7978672e.png)
 
