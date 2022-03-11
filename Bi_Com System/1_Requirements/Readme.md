@@ -26,7 +26,7 @@
 |------|------|------|
 |HLR_01|LLR_01|Key shall be in detectable range of the car|
 ||LLR_02|Key Battery must be charged|
-|HLR_02|LLR_01|System shall print message "Window Opne/Close"|       
+|HLR_02|LLR_01|System shall print message "Window Open/Close"|       
 ||LLR_02|All LED lights shall get turned on at the same time|
 |HLR_03|LLR_01|System shall print message "Alarm On/off"|              
 ||LLR_02|All LED lights shall get turned off at the same time|
