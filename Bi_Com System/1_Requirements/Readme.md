@@ -7,39 +7,32 @@
   4. [ SWOT Analysis](#swot-analysis)
   5. [5Ws and 1H](#5ws-and-1h)
 ## Introduction
-Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles.
-
-RKE transmission requires two components - a transmitter and a receiver. 
-
-•	Transmitter - RKE key fob, other ID device with RKE integrated 
-
-•	Receiver - Body Control ECU, other ECU with integrated RKE 
-
-RKE operates by broadcasting radio waves on a particular frequency unidirectionally. 
-
-RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams. 
+2.1	A BiCom system is the extention of the unidirectional RKE to bidirectional RKE system. 
+•	keyfob -> car (like a unidirectional RKE system) 
+•	car -> keyfob (car status information for displaying on the keyfob by LED or display) 
+ 
 
 ## High Level Requirements
 |ID|Description|
 |------|------|
-|HLR_01|RKE key fob shall send signal to the car ECU|
-|HLR_02|Car shall get locked on pressing blue switch once|
-|HLR_03|Car shall get unlocked on pressing blue switch twice|
-|HLR_04|Car alarm shall get activated/deactivated on pressing blue switch thrice|
-|HLR_05|Car Approach Light shall get activated on pressing blue switch four times|
+|HLR_01|Car shall send signal to the key fob|
+|HLR_02|Car Window open/closed status shall be sent to key fob on pressing blue switch once|
+|HLR_03|Car Alarm status shall be sent to key fob on pressing blue switch twice|
+|HLR_04|Car Battery info shall be sent on pressing blue switch thrice|
+|HLR_05|Car Door status shall be sent to key fob on pressing blue switch four times|
 
 ## Low Level Requirements
 |ID|ID|Description|
 |------|------|------|
 |HLR_01|LLR_01|Key shall be in detectable range of the car|
 ||LLR_02|Key Battery must be charged|
-|HLR_02|LLR_01|System shall print message "Lock"|       
+|HLR_02|LLR_01|System shall print message "Window Opne/Close"|       
 ||LLR_02|All LED lights shall get turned on at the same time|
-|HLR_03|LLR_01|System shall print message "Unlock"|              
+|HLR_03|LLR_01|System shall print message "Alarm On/off"|              
 ||LLR_02|All LED lights shall get turned off at the same time|
-|HLR_04|LLR_01|System shall print message "Alarm Activated/Deactivated"|              
+|HLR_04|LLR_01|System shall print message "Battery Info"|              
 ||LLR_02|All led shall get turned on in clockwise manner|
-|HLR_04|LLR_01|System shall print message "Approach Light"|              
+|HLR_04|LLR_01|System shall print message "Door Open/Close"|              
 ||LLR_02|All led shall get turned on in anti-clockwise manner|
 
 
