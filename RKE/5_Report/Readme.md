@@ -6,6 +6,8 @@
   3. [Low Level Reuqirements](#low-level-requirements)
   4. [ SWOT Analysis](#swot-analysis)
   5. [5Ws and 1H](#5ws-and-1h)
+  6. [Design](#design)
+  7. [Test Plan And Output](#test-plan-and-output)
 ## Introduction
 Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles.
 
@@ -99,7 +101,7 @@ RKE systems implement encryption and rolling code algorithms to prevent car thie
 ![M3Project drawio](https://user-images.githubusercontent.com/98812321/157839105-41a51243-30ce-4915-83c4-538bf4896126.png)
 
 
-# TestPlanAndOutput
+# Test Plan And Output
 ## HIGH LEVEL TEST PLAN
 |TestID|Description|Input|Output|Status|
 |------|--------|--------|-------|-----|
