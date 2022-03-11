@@ -6,9 +6,13 @@
   3. [Low Level Reuqirements](#low-level-requirements)
   4. [ SWOT Analysis](#swot-analysis)
   5. [5Ws and 1H](#5ws-and-1h)
+  6. [Design](#design)
+  7. [Test Plan And Output](#test-plan-and-output)
 ## Introduction
-2.1	A BiCom system is the extention of the unidirectional RKE to bidirectional RKE system. 
+Bi-Com System is Bidirectional RKE system which consists of transmitter (Key-fob) and receiver (Car) include some functions. By using these functions, we can check the car status information. Most used Bi-Com system alarm the vehicle against theft and lock and unlock the door and tailgate. Some include remote start and car finder function. The most Bi-Com system design are achieving Low power consumption in both Transmitter and Receiver, while achieving good range and reliability for the Bi- Com system. Bi-Com system allows a user to lock, unlock the care and to check the windows status, alarm status, Battery status information etc.… This application note describes how Bi-Com system Work and ways to meet the primary design challenges, which are low power consumption, Bi-Com Transmitter, Receiver range and reliability.
+
 •	keyfob -> car (like a unidirectional RKE system) 
+
 •	car -> keyfob (car status information for displaying on the keyfob by LED or display) 
  
 
@@ -84,7 +88,7 @@
 ## Low Level UML Use Case Diagram
 ![M3Project drawio (1)](https://user-images.githubusercontent.com/98812321/157847931-ab07a16f-1389-4d8b-ad97-bbd62743cdc0.png)
 
-# TestPlanAndOutput
+# Test Plan And Output
 ## HIGH LEVEL TEST PLAN
 |TestID|Description|Input|Output|Status|
 |------|--------|--------|-------|-----|
