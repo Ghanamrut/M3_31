@@ -1,3 +1,7 @@
+![Code Quality Score](https://api.codiga.io/project/31922/score/svg)
+![Code grade](https://api.codiga.io/project/31922/status/svg)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/867330aaf60b48b097d7322cbe29d6ad)](https://www.codacy.com/gh/Ghanamrut/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ghanamrut/M2-EmbSys&amp;utm_campaign=Badge_Grade)
+
 |Name|Contribution|
 |--------|---------|
 |Gaurav Pawar|Requriment, Button Initialization, Approch Light function, Door Status function|
