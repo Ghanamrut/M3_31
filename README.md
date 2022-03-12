@@ -7,22 +7,40 @@
 
 # M3_31
 Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles. 
-1.A) RKE transmission requires two components - a transmitter and a receiver. 
+
+1.A) RKE transmission requires two components - a transmitter and a receiver.
+
      * Transmitter - RKE key fob, other ID device with RKE integrated 
+     
      * Receiver - Body Control ECU, other ECU with integrated RKE 
-  B) RKE operates by broadcasting radio waves on a particular frequency unidirectionally. 
-  C) RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams. 
-  D) Typical RKE functions are: 
+     
+  B) RKE operates by broadcasting radio waves on a particular frequency unidirectionally.
+  
+  C) RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams.
+  
+  D) Typical RKE functions are:
+  
      * Print lock – (Blue switch on- All led on at the same time)
+     
      * Print unlock - (Blue switch press two times- All led off at the same time)
+     
      * Print alarm activation/deactivation - (Blue switch press three times- All led on in clockwise manner)
+     
      * Print approach light - (Blue switch press four times- All led on in anti-clockwise manner)
+     
 2.A) A BiCom system is the extention of the unidirectional RKE to bidirectional RKE system. 
+
      *	keyfob -> car (like a unidirectional RKE system) 
+     
      *	car -> keyfob (car status information for displaying on the keyfob by LED or display) 
+     
      B)Typical BiCom status information transmitted to the keyfob are: 
+     
      *	Print window status (Blue switch on- All led on at the same time)
+     
      *	Print alarm status - (Blue switch press two times- All led off at the same time
+     
      *	Print car battery info – (Blue switch press three times- All led on in clockwise manner)
+     
      *	Print Door status (Blue switch press four times- All led on in anti-clockwise manner)
 
