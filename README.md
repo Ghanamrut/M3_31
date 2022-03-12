@@ -1,9 +1,9 @@
 |Name|Contribution|
 |--------|---------|
-|Gaurav Pawar||
-|Akshay Eknathe||
-|Ghanamrut Marathe|
-|Nimesh Palod||
+|Gaurav Pawar| Button Initialization,Approch Light,Door Status  |
+|Akshay Eknathe|While loop,Unlock,Alarm Status|
+|Ghanamrut Marathe|Delay function,Alarm,Battery Info |
+|Nimish Palod|LED Initialization,Lock,Window Status|
 
 # M3_31
 Car Unlock System
