@@ -110,7 +110,7 @@ void one(int nums){
     GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14, HIGH);
     GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15, HIGH);
 }
-//Unlock - Akshey
+//Unlock - Akshay
 //*************************************************************
 void two(int nums){
     GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, LOW);
