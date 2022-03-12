@@ -39,7 +39,6 @@ void main(){
     GPIO_Init(&GpioLED2);
 
 	
-
     GPIO_Handle_t GpioLED3;
     GpioLED3.pGPIOx = GPIOD;
     GpioLED3.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_14;
