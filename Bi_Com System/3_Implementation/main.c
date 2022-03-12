@@ -75,28 +75,28 @@ int main(void)
 
 	while (1)
 	{
-		int btncnt = buttonStatus();
-		volatile int encrypredData = encryption(btncnt);
+		int buttonCount = buttonStatus();
+		volatile int encrypredData = encryption(buttonCount);
 		if (encrypredData == 74)
 		{
 			windowStatus();
-			btncnt = 0;
+			buttonCount = 0;
 		}
 		else if (encrypredData == 76)
 		{
 			alarmStatus();
-			btncnt = 0;
+			buttonCount = 0;
 		}
 		else if (encrypredData == 78)
 		{
 			carBatteryInfo(();
 
-			btncnt = 0;
+			buttonCount = 0;
 		}
 		else if (encrypredData == 80)
 		{
 			doorStatus();
-			btncnt = 0;
+			buttonCount = 0;
 		}
 	}
 }
