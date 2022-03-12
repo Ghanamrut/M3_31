@@ -34,7 +34,7 @@ Remote keyless entry (RKE) system is a system designed to remotely lock or unloc
      
      *	car -> keyfob (car status information for displaying on the keyfob by LED or display) 
      
-     B)Typical BiCom status information transmitted to the keyfob are: 
+  B) Typical BiCom status information transmitted to the keyfob are: 
      
      *	Print window status (Blue switch on- All led on at the same time)
      
