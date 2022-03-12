@@ -76,28 +76,28 @@ int main(void)
 
 	while (1)
 	{
-		int btncnt = buttonStatus();
-		volatile int encrypredData = encryption(btncnt);
+		int buttonCount = buttonStatus();
+		volatile int encrypredData = encryption(buttonCount);
 		if (encrypredData == 74)
 		{
 			lock();
-			btncnt = 0;
+			buttonCount = 0;
 		}
 		else if (encrypredData == 76)
 		{
 			unlock();
-			btncnt = 0;
+			buttonCount = 0;
 		}
 		else if (encrypredData == 78)
 		{
 			alram();
 
-			btncnt = 0;
+			buttonCount = 0;
 		}
 		else if (encrypredData == 80)
 		{
 			approchLight();
-			btncnt = 0;
+			buttonCount = 0;
 		}
 	}
 }
