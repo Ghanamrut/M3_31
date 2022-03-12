@@ -95,24 +95,24 @@ int encryption(int data)
 
 	if (data == encrypt1)
 	{
-		int dta = 32 + 42 ;
-		return dta;
+		int sum = 32 + 42 ;
+		return sum;
 	}
 	else if (data == encrypt2)
 	{
-		int dta = 33 + 43;
-		return dta;
+		int sum = 33 + 43;
+		return sum;
 	}
 	else if (data == encrypt3)
 	{
-		int dta = 34 + 44;
-		return dta;
+		int sum = 34 + 44;
+		return sum;
 	}
 	else if (data == encrypt4)
 	{
-		int dta = 35 + 45;
+		int sum = 35 + 45;
 
-		return dta;
+		return sum;
 	}
  return 0;
 }
